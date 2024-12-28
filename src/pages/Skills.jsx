@@ -9,7 +9,7 @@ import js from '../assets/skillsLogo/js.png';
 import react from '../assets/skillsLogo/react.png';
 import bootstrap from '../assets/skillsLogo/bootstrap.png';
 import tailwind from '../assets/skillsLogo/tailwind.png';
-import Java from '../assets/skillsLogo/Java.png';
+import Java from '../assets/skillsLogo/java.png';
 import jdbc from '../assets/skillsLogo/jdbc.png';
 import servlet from '../assets/skillsLogo/servlet1.jpeg';
 import jsp from '../assets/skillsLogo/jsp.png';

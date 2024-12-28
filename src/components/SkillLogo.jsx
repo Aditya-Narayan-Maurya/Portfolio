@@ -1,5 +1,5 @@
 import React from 'react';
-import spring from "../assets/skillsLogo/spring.png";
+
 
 const SkillLogo = ({name,image}) => {
   return (
