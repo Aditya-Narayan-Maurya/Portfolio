@@ -5,3 +5,7 @@
 .vertical-timeline::before{
     background: yellowgreen !important;
 } */
+ html{
+    scroll-padding-top:80px;
+    scroll-behavior: smooth;
+ }

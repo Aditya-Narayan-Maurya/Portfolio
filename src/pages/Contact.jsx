@@ -19,10 +19,10 @@ const Contact = () => {
     }
 
   return (
-    <div>
+    <div id='contact' className='bg-[#F1F0E8]'>
          <h1 className='text-center text-4xl font-bold py-3 '>Contact Me</h1>
 
-      <form name="contact" method='post' data-netlify="true" onSubmit={handleSubmit} action="" className='border md:w-1/2 md:ml-[25%] w-11/12 ml-[4%] p-6 rounded-3xl'>
+      <form name="contact" method='POST' data-netlify="true" onSubmit={handleSubmit} action="" className='border md:w-1/2 md:ml-[25%] w-11/12 ml-[4%] p-6 rounded-3xl'>
      
       <input type="hidden" name="contact" value="contact" />
 

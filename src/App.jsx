@@ -5,22 +5,29 @@ import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";
 import Contact from "./pages/Contact";
 import Skills from "./pages/Skills";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Footer from "./components/Footer";
+
+// import Layout from "./pages/Layout";
+// import { RouterProvider } from "react-router-dom";
+// import { myRoutes } from "./Routes";
 
 function App() {
 
   return (
     <>
-    <Navbar/>
-    <Home/>
-    <About/>
-    <Projects/>
-    <Experience/>
-    <Contact/>
-    <Skills/>
-      <div className="flex">
-      <div className="caret-violet-700 border-l-fuchsia-400 font-serif">I am app</div>
-      <div className="font-bold">good boy</div>
-      </div>
+ {/* return <RouterProvider router={myRoutes}></RouterProvider> */}
+
+ <BrowserRouter>
+ <Navbar/>
+    <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/about" element={<About/>}/>
+    </Routes>
+    
+   <Footer/> 
+
+ </BrowserRouter>
     </>
   )
 }

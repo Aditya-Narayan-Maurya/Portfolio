@@ -2,7 +2,6 @@ import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import { faSchool } from '@fortawesome/free-solid-svg-icons';
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
@@ -12,7 +11,7 @@ import {faReact} from '@fortawesome/free-brands-svg-icons';
 
 const Experience = () => {
   return (
-    <div className='relative min-h-screen p-5 bg-[#F1F0E8] '>
+    <div id='experience' className='relative min-h-screen p-5 bg-[#F5EFFF] '>
       <h1 className='text-center text-4xl font-bold py-3'>My Experience</h1>
       <br /><br />
 
